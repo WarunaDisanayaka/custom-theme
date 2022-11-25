@@ -16,9 +16,13 @@ function load_js(){
         
         wp_register_script('bootstrap',get_template_directory_uri(). '/js/bootstrap.min.js','jquery',false,true);
         wp_enqueue_script('bootstrap');
+
+        wp_register_script('custom',get_template_directory_uri(). '/js/main.js','jquery',false,true);
+        wp_enqueue_script('custom');
 }
 
 add_action('wp_enqueue_scripts','load_js');
+
 
 
 add_theme_support('menus');
