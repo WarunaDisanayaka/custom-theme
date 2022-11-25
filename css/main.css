@@ -51,3 +51,44 @@ header .top-bar .menu-item-has-children:hover .sub-menu{
     display: block;
 }
 
+/*Footer CSS*/
+footer .menu-top-bar-container ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer .menu-top-bar-container ul li{
+    list-style-type: none;
+    
+}
+
+footer .menu-top-bar-container ul li a{
+    color: #6c757d;
+}
+
+
+/*Header img CSS*/
+.masthead {
+    height: 10vh;
+    min-height: 250px;
+    background-image: url('https://www.marinabaysands.com/content/dam/revamp/shoppes/shoppes-listing/shop-listing-d-v2_1920X1234.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.masthead h1{
+    font-weight: bold;
+    color: white;
+}
+
+
+/*Navigation*/
+.navbar-nav {
+    margin-left: auto;
+}
+
+nav .brand-logo{
+    width: 158px;
+    height: 43px;
+}
